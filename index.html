@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 3</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <section class="hero">
+        <h1>Ejercicio 3</h1>
+        <article class="hero__content">
+          <div class="hero__form-container">
+           <div id="pizza"></div>
+            <form action="" name="form_pizza" class="form">
+              <label for="input_id" class="form__label">Ingresa el numero de tu pizza:</label>
+              <div class="form__inputs">
+                <input type="number" name="number_input" class="form__input" id="input_id" placeholder="1"/>
+                <button type="submit" class="btn">Enviar</button>
+              </div>
+            </form>
+          </div>
+          <div class="hero__menu-pizza">
+            <h2 class="menu-pizza__title">Menu:</h2>
+            <ul id="menuPizza" class="menu-pizza"></ul>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="app.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
